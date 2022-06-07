@@ -1,0 +1,18 @@
+.info__author-name {
+    line-height: 48px;
+    font-size: 32px;
+    margin: 0px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    max-width: 294px;
+    overflow: hidden;
+    white-space: nowrap; 
+
+}
+
+@media (max-width: 900px) {
+    .info__author-name {
+        font-size: 27px;
+        line-height: 32.68px;
+    }
+}

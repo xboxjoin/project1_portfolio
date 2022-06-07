@@ -1,0 +1,10 @@
+.element__description {
+    box-sizing: border-box;
+    margin: 25px 20px 31px 21px; 
+    /* вынужден значение margin-botton: 31px изменить на 25px, иначе не сходство с макетом( */
+    width: 241px;
+    display: grid;
+    grid-template-columns: 1fr 22px;
+    grid-template-rows: 23px;
+    align-items: baseline;
+}

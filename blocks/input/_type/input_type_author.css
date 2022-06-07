@@ -1,0 +1,18 @@
+/* .input_type_author {
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    box-sizing: border-box;
+    margin: 48px auto 0px;
+    (( margin-top: 54px ))
+}
+
+@media (max-width: 600px) {
+    .input_type_author {
+        margin-top: 75px;
+    }
+}
+ */

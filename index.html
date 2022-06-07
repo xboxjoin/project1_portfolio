@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+<body>
+    <div class="page">
+
+        <header class="header">
+            <div class="header__container">
+                <h1>Aidar potrfolio__project1</h1>
+            </div>
+        </header>
+
+        <main class="main">
+            
+            <section class="profile">
+                <img src="https://thumbs.dfs.ivi.ru/storage28/contents/5/2/a5a8a2713686c5f5533238ef057baf.jpg" alt="Златан" class="profile__avatar">
+                <div class="info">
+                    <h1 class="info__author-name">Zlatan Ibrahimović</h1>
+                    <button class="button button_type_edit" type = "button"></button>
+                    <p class="info__title">Лучший нападающий в истории футбола))</p>
+                </div>
+                <button class="button button_type_add" type = "button"></button>
+            </section>
+
+            <section class="elements">
+                
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class = "footer__text">© 2022 Aidar</p>
+        </footer>
+
+        <div class="popup">
+            <div class="popup__container popup__container_type_edit">
+                <button class="button button_type_close button_place_popup" type = "button"></button>
+                <form class="popup__form" name="editForm">
+                    <h2 class="popup__text">Редактировать профиль</h2>
+                    <input type="text" name = "authorInput" placeholder= "Автор" required value= "Жак-Ив Кусто" class="input input_type_author">
+                    <input type="text" name = "titleInput" value= "Исследователь океана" placeholder= "Род деятельности" required class="input input_type_title">
+
+                    <button class="popup__submit" type = "submit">Сохранить</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="popup popup_type_add">
+            <div class="popup__container popup__container_type_add">
+                <button class="button button_type_close button_place_popup" type = "button"></button>
+                <form class="popup__form" name="addForm">
+                    <h2 class="popup__text">Новый игрок</h2>
+                    <input type="text" name = "placeNameInput" placeholder= "Имя" required class="input input_type_author name">
+                    <input name = "placeUrlInput" type="url" placeholder= "Ссылка на картинку" required class="input input_type_title place">
+                        
+                    <button class="popup__submit popup__submit_type_add" type = "submit">Добавить</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="popup popup_type_image">
+            <div class="popup__container popup__container_type_image">
+                <button class="button button_type_close button_place_image-popup" type = "button"></button>
+                <img class="popup__image" alt>
+                <h2 class="popup__title"></h2>
+            </div>
+        </div>
+
+        <template class="template">
+            <article class="element">
+                <img class="element__image" alt>
+                <button class="element__remove"></button>
+                <div class="button element__description">
+                    <h2 class="element__title"></h2>
+                    <button class="element__like" type = "button"></button>
+                </div>
+            </article>
+        </template>
+    
+    </div>
+    <script src="./scripts/cards.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

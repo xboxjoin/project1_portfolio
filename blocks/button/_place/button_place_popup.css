@@ -1,0 +1,12 @@
+.button_place_popup {
+    position: absolute;
+    right: -40px;
+    top: -40px;
+}
+
+@media (max-width: 600px) {
+    .button_place_popup {
+        top: -36px;
+        right: 0px;
+    }
+}

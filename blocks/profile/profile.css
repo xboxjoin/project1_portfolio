@@ -1,0 +1,20 @@
+.profile {
+    width: 880px;
+    margin: 40px auto 0px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .profile {
+        max-width: 581px;
+    }
+}
+@media (max-width: 600px) {
+    .profile {
+        max-width: 282px;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 42px;
+    }
+}

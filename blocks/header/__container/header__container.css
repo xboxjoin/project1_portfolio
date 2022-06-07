@@ -1,0 +1,22 @@
+.header__container {
+    width: 100%;
+    max-width: 880px;
+    height: fit-content;
+    display: flex;
+    justify-items: flex-start;
+    margin-bottom: 41px;
+}
+
+@media (max-width: 900px) {
+    .header__container {
+        width: 100%;
+        max-width: 581px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__container {
+        max-width: 266px;
+        margin-bottom: 31.6px;
+    }
+}
