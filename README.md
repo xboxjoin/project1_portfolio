@@ -1,5 +1,4 @@
-# Проект1 для портфолио (адапитивный)
+# Проект 1 для портфолио (адапитивный)
 
-
-https://xboxjoin.github.io/mesto
+https://xboxjoin.github.io/project1_portfolio/
 
